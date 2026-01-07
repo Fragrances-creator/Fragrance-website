@@ -39,6 +39,15 @@ header {
   margin: 10px 0;
   font-size: 18px;
 }
+.sale-banner {
+  background-color: #c89b3c; /* luxury gold */
+  color: #000;
+  text-align: center;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 button {
   background: black;
