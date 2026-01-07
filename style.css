@@ -49,6 +49,26 @@ header {
   letter-spacing: 1px;
 }
 
+.price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+}
+
+.new-price {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.new-price {
+  color: #c89b3c; /* luxury gold */
+}
 button {
   background: black;
   color: white;
