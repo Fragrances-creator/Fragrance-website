@@ -69,6 +69,39 @@ header {
 .new-price {
   color: #c89b3c; /* luxury gold */
 }
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+}
+
+.new-price-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.new-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.sale-badge {
+  background-color: #c00000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
 button {
   background: black;
   color: white;
