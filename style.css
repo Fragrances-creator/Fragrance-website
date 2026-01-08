@@ -102,6 +102,30 @@ header {
   padding: 3px 6px;
   border-radius: 4px;
 }
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #c89b3c; /* luxury gold */
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 button {
   background: black;
   color: white;
